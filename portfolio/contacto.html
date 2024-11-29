@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - EcoFreshly</title>
+    <link rel="stylesheet" href="../estilo/styles.css">
+</head>
+<body>
+    <!-- 
+        Módulo: Desarrollo Web
+        Tarea: Sitio web
+        UD: UD3
+        Autor: Nellys Nathaly Mata Marín
+        Fecha: 29 de Noviembre de 2024
+         Autoevaluación: https://docs.google.com/document/d/1FrdobbLnS2dHugL7Ek8aH0mMg2CmPxfDMbis-qLO0uw/edit?usp=sharing
+         Página GitHub: 
+    -->
+    <!-- Cabecera -->
+    <header class="header">
+        <div class="logo">
+            <img src="../images/imagen_logo.png" alt="Logo Skincare" class="logo-img">
+            <h1>EcoFreshly</h1>
+            <p>Tú piel, es nuestra prioridad</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p>¡Nos encantaría saber de ti! Si tienes alguna duda o comentario, no dudes en escribirnos a través del siguiente formulario.</p>
+            
+            <!-- Formulario de Contacto -->
+            <form action="#" method="post" class="formulario-contacto">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+
+            <!-- Detalles de contacto -->
+            <div class="informacion-contacto">
+                <h3>Información de contacto</h3>
+                <p><strong>Dirección:</strong> Calle Vitoria, Álava, España</p>
+                <p><strong>Teléfono:</strong> +123 456 789</p>
+                <p><strong>Correo electrónico:</strong> contacto@ecofreshly.com</p>
+                <p><strong>Horario de atención:</strong> Lunes a viernes, de 9:00 a 18:00 hrs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 EcoFreshly. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
